@@ -1,0 +1,11 @@
+görülen = str (input("bir cümle giriniz"))
+print("tam tersten : " + görülen [::-1])
+görülensplit = görülen.split()
+print(görülensplit)
+for i in range(len(görülensplit)):
+    print( len(görülensplit[i]))
+
+for i in range(len(görülensplit)):
+    kelime = görülensplit[i]
+    kelime1 = kelime[::-1]
+    print(kelime1)
